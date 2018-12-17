@@ -1,13 +1,17 @@
 import * as React from 'react';
-import { HomeStyles } from './styles';
+import {
+  Header,
+  HomeStyles,
+} from './styles';
+import Input from './Input';
 
 export default class Home extends React.Component {
   public render() {
     return (
       <HomeStyles>
-        <header>
-          <input />
-        </header>
+        <Header>
+          <Input />
+        </Header>
         <main>
           Content
         </main>
